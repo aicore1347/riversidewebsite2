@@ -1,0 +1,24 @@
+{
+    "hooks": {
+      "Stop": [
+        {
+          "hooks": [
+            {
+              "type": "command",
+            "command": "open claude/hooks/sounds/done_noti.wav"
+            }
+          ]
+        }
+      ],
+      "Notification": [
+        {
+          "hooks": [
+            {
+              "type": "command",
+              "command": "open claude/hooks/sounds/done_noti.wav"
+            }
+          ]
+        }
+      ]
+    }
+  }
